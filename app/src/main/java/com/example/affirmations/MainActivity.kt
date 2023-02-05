@@ -13,7 +13,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val textView = binding.textViewHello
-        textView.text = DataSource().loadAffirmations().size.toString()
     }
 }
