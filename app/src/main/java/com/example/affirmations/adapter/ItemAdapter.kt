@@ -25,6 +25,7 @@ class ItemAdapter(
         with(holder){
             with(dataset[position]){
                 binding.itemTitle.text = context.resources.getString(dataset[position].stringResourceId)
+                binding.itemImage.setImageResource(dataset[position].imageResourceId)
             }
         }
     }
