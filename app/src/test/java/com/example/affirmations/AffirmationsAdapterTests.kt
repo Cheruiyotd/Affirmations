@@ -11,7 +11,7 @@ class AffirmationsAdapterTests {
     private val context = mock(Context::class.java)
 
     @Test
-    fun adapter_size(){
+    fun adapter_size() {
         val data = listOf(
             Affirmation(R.string.affirmation1, R.drawable.image1),
             Affirmation(R.string.affirmation2, R.drawable.image2)
